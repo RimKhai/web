@@ -196,7 +196,6 @@ body {
     padding-left: 15%;
     padding-right: 15%;
     padding-top: 50px;
-    padding-bottom: 100px;
 }
 .goods_items {
     display: flex;
@@ -249,6 +248,9 @@ body {
     font-weight: bold;
     font-size: 18px;
     margin-bottom: 38px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .buy_btn {
@@ -271,4 +273,158 @@ body {
     color: #FFFFFF;
 }
 
+.add {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 15% 0 15%;
+}
+
+.subscribe {
+    width: 40%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 40px 30px 40px;
+    background-color: #66C05D;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub_inner {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sub_header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.sub_description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+
+    color: #FFFFFF;
+}
+
+.sub_input {
+    background: #FFFFFF;
+    border-radius: 30px;
+    border: none;
+    width: 80%;
+    height: 35px;
+    padding-left: 20px;
+}
+
+.our_shops {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    padding: 30px 40px 30px 40px;
+    background-color: #66C05D;
+    justify-content: space-between;
+}
+
+.shops_inner {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shops_header {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.shops_description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    color: #FFFFFF;
+}
+
+.shops_btn {
+    box-sizing: border-box;
+    width: 170px;
+    height: 35px;
+
+    /* Accent */
+
+    background: #66C05D;
+    border: 2px solid #FFFFFF;
+    border-radius: 30px;
+    cursor: pointer;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.footer {
+    height: 150px;
+    margin-top: 100px;
+}
+
+.footer_line {
+    background-color: white;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15% 0 15%;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+.link {
+    width: 45px;
+    height: 45px;
+    margin-right: 8px;
+}
+
+.policy {
+    background: #EFEFEF;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15% 5px 15%;
+}
+
+.pol_text {
+    font-size: 10px;
+}
 
